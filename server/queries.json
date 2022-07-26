@@ -1,0 +1,4 @@
+{
+	"addPW": "INSERT INTO passwords(loginId, password, title, iv) VALUE(?, ?, ?, ?);",
+	"showPW": "SELECT * FROM passwords;"
+}
